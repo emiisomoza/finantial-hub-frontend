@@ -4,6 +4,8 @@ import ProtectedRoute from './components/layout/ProtectedRoute'
 import AppLayout from './components/layout/AppLayout'
 import LoginPage from './pages/LoginPage'
 import AssetsPage from './pages/AssetsPage'
+import IncomesPage from './pages/IncomesPage'
+import ExpensesPage from './pages/ExpensesPage'
 
 function Protected({ children }: { children: React.ReactNode }) {
   return (
@@ -22,8 +24,8 @@ export default function App() {
           <Route path="/" element={<Protected><Navigate to="/summary" replace /></Protected>} />
           <Route path="/summary"      element={<Protected><div>Summary (coming soon)</div></Protected>} />
           <Route path="/assets"       element={<Protected><AssetsPage /></Protected>} />
-          <Route path="/incomes"      element={<Protected><div>Incomes (coming soon)</div></Protected>} />
-          <Route path="/expenses"     element={<Protected><div>Expenses (coming soon)</div></Protected>} />
+          <Route path="/incomes"      element={<Protected><IncomesPage /></Protected>} />
+          <Route path="/expenses"     element={<Protected><ExpensesPage /></Protected>} />
           <Route path="/subscription" element={<Protected><div>Subscription (coming soon)</div></Protected>} />
           <Route path="/profile"      element={<Protected><div>Profile (coming soon)</div></Protected>} />
         </Routes>
