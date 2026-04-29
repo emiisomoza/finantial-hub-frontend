@@ -19,7 +19,7 @@ export interface RegisterRequest {
 
 export interface UserResponse {
   id: string
-  name: string
+  fullName: string
   email: string
   role: 'MEMBER' | 'ADMIN'
   createdAt: string
