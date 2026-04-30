@@ -21,7 +21,7 @@ const EMPTY_FORM: FormState = {
   name: '',
   symbol: '',
   quantity: '',
-  valuationMode: 'MARKET_PRICE',
+  valuationMode: 'MARKET',
   manualUnitValue: '',
   currency: 'AUD',
 }
@@ -148,8 +148,10 @@ function AssetForm({ form, onChange, onSubmit, onCancel, submitting }: {
         <>
           <option value="STOCK">Stock</option>
           <option value="CRYPTO">Crypto</option>
-          <option value="REAL_ESTATE">Real Estate</option>
+          <option value="PROPERTY">Property</option>
+          <option value="VEHICLE">Vehicle</option>
           <option value="CASH">Cash</option>
+          <option value="FUND">Fund</option>
           <option value="OTHER">Other</option>
         </>
       ))}
@@ -172,7 +174,7 @@ function AssetForm({ form, onChange, onSubmit, onCancel, submitting }: {
       {field('Valuation', select(
         { value: form.valuationMode, onChange: (e) => onChange({ ...form, valuationMode: e.target.value as ValuationMode }) },
         <>
-          <option value="MARKET_PRICE">Market price</option>
+          <option value="MARKET">Market price</option>
           <option value="MANUAL">Manual</option>
         </>
       ))}
