@@ -18,19 +18,17 @@ This service is part of a larger financial portfolio system:
 
 ## Screenshots
 
-<!-- Add screenshots here after capturing them -->
-
 ### Summary
-<!-- ![Summary page](docs/screenshots/summary.png) -->
+![Subscription page](docs/screenshots/Summary.png)
 
 ### Assets
-<!-- ![Assets page](docs/screenshots/assets.png) -->
+![Subscription page](docs/screenshots/Assets.png)
 
 ### Incomes & Expenses
-<!-- ![Incomes page](docs/screenshots/incomes.png) -->
+![Subscription page](docs/screenshots/Incomes.png)
 
 ### Email subscription
-<!-- ![Subscription page](docs/screenshots/subscription.png) -->
+![Subscription page](docs/screenshots/Subscription.png)
 
 ---
 
