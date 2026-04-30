@@ -27,8 +27,8 @@ export interface UserResponse {
 
 // ── Assets ────────────────────────────────────────────────────────────────────
 
-export type AssetType = 'STOCK' | 'CRYPTO' | 'REAL_ESTATE' | 'CASH' | 'OTHER'
-export type ValuationMode = 'MARKET_PRICE' | 'MANUAL'
+export type AssetType = 'STOCK' | 'CRYPTO' | 'PROPERTY' | 'VEHICLE' | 'CASH' | 'FUND' | 'OTHER'
+export type ValuationMode = 'MARKET' | 'MANUAL'
 
 export interface CreateAssetRequest {
   userId?: string
