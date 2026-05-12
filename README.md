@@ -32,6 +32,11 @@ This service is part of a larger financial portfolio system:
 
 ---
 
+## Link
+http://financial-hub-frontend.s3-website-us-east-1.amazonaws.com/summary
+
+---
+
 ## Features
 
 - **Dashboard** — KPI cards (total assets, monthly income, expenses, savings) + savings rate ring + bar chart, with currency selector (AUD, USD, EUR, GBP, JPY)
